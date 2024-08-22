@@ -1,0 +1,7 @@
+(executable
+ (public_name lwt_test)
+ (name main)
+ (libraries lwt_test lwt.unix)
+  (preprocess
+  (pps  lwt_ppx))
+ )
